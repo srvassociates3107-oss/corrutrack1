@@ -1,0 +1,6 @@
+{
+  "name": "CorruTrack - Corrugated Box Manufacturing & Supply Chain Transparency System",
+  "description": "Real-time order tracking, production stage workflow, automated WhatsApp/SMS notifications to customers, owners, and production teams with SLA delay prevention.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
