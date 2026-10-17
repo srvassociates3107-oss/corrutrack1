@@ -1,7 +1,7 @@
 import { db } from './index.ts';
 import { orders, orderTimelineEvents } from './schema.ts';
 import { eq, desc, asc } from 'drizzle-orm';
-import { CorrugatedOrder } from '../types/order.ts';
+import type { CorrugatedOrder } from '../types/order.ts';
 
 export async function getDbOrders(): Promise<CorrugatedOrder[]> {
   try {

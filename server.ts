@@ -13,7 +13,7 @@ import makeWASocket, {
   fetchLatestBaileysVersion,
 } from '@whiskeysockets/baileys';
 import pino from 'pino';
-import { requireAuth, AuthRequest } from './src/middleware/auth.ts';
+import { requireAuth, type AuthRequest } from './src/middleware/auth.ts';
 import { getOrCreateUser, getAllUsers } from './src/db/users.ts';
 import { getDbOrders, upsertBulkDbOrders, upsertDbOrder } from './src/db/orders.ts';
 
